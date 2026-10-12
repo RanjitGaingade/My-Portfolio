@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d18">
+  <meta name="description" content="Ranjit Gaingade — AWS Cloud & DevOps Engineer. Explore cloud infrastructure, Terraform, Docker, CI/CD, and software projects.">
+  <title>Ranjit Gaingade | AWS Cloud & DevOps Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Ranjit Gaingade home"><span class="brand-mark">RG</span><span>RANJIT<span class="brand-muted">.DEVOPS</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="navMenu">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#workflow">Workflow</a><a class="nav-cta" href="#contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> AWS CLOUD &amp; DEVOPS ENGINEER</div>
+        <h1>Shipping reliable<br>systems, <span class="gradient-text">automating</span><br>the path to production.</h1>
+        <p class="hero-intro">I’m Ranjit Gaingade, an infrastructure and operations professional focused on cloud infrastructure, Infrastructure as Code, containerization, and CI/CD automation.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore projects <span>↓</span></a>
+          <a class="button button-secondary" href="https://github.com/RanjitGaingade" target="_blank" rel="noreferrer">GitHub profile ↗</a>
+        </div>
+        <div class="hero-meta"><span><i class="meta-icon">⌘</i> Infrastructure as Code</span><span><i class="meta-icon">↻</i> CI/CD Automation</span><span><i class="meta-icon">☁</i> AWS Cloud</span></div>
+      </div>
+      <div class="terminal-card" aria-label="Decorative terminal illustration">
+        <div class="terminal-top"><div class="window-dots"><i></i><i></i><i></i></div><span>deployment.sh</span><span class="terminal-lock">● connected</span></div>
+        <div class="terminal-body">
+          <div class="terminal-line"><span class="line-number">01</span><span class="prompt">$</span> git push origin main</div>
+          <div class="terminal-output">Enumerating objects... done</div>
+          <div class="terminal-line"><span class="line-number">02</span><span class="prompt">$</span> terraform plan</div>
+          <div class="terminal-output">Plan: review infrastructure changes</div>
+          <div class="terminal-line"><span class="line-number">03</span><span class="prompt">$</span> docker build -t app:$GIT_SHA .</div>
+          <div class="terminal-output success">✓ Image build step represented</div>
+          <div class="terminal-line"><span class="line-number">04</span><span class="prompt">$</span> ./deploy.sh</div>
+          <div class="terminal-output">Deploy • verify • observe</div>
+          <div class="terminal-cursor">▌</div>
+        </div>
+        <div class="terminal-footer"><span><b></b> portfolio shell</span><span>region: ap-south-1*</span></div>
+      </div>
+      <div class="hero-grid-label">BUILD / AUTOMATE / IMPROVE</div>
+    </section>
+
+    <section class="ticker" aria-label="Technology areas"><div class="ticker-track"><span>AWS CLOUD</span><b>✳</b><span>TERRAFORM</span><b>✳</b><span>DOCKER</span><b>✳</b><span>CI/CD</span><b>✳</b><span>LINUX</span><b>✳</b><span>GITHUB ACTIONS</span><b>✳</b><span>JENKINS</span><b>✳</b></div></section>
+
+    <section class="section-wrap content-section" id="about">
+      <div class="section-heading"><div><span class="section-kicker">01 / PROFILE</span><h2>Infrastructure mindset.<br><span class="muted-heading">Automation-first delivery.</span></h2></div><p class="section-summary">A practical portfolio of projects exploring cloud deployment, repeatable infrastructure, container workflows, and version-controlled delivery.</p></div>
+      <div class="about-grid">
+        <article class="about-panel"><div class="panel-icon">⌘</div><h3>From operations to cloud</h3><p>My professional focus brings infrastructure and operations experience together with hands-on cloud and DevOps projects. I value clear runbooks, repeatable changes, and observable deployments.</p></article>
+        <article class="about-panel"><div class="panel-icon">⌁</div><h3>How I approach engineering</h3><p>Version control first. Automate repeatable work. Keep infrastructure changes reviewable. Validate the application after deployment. Document the system so others can understand it.</p></article>
+      </div>
+    </section>
+
+    <section class="section-wrap content-section" id="skills">
+      <div class="section-heading"><div><span class="section-kicker">02 / TOOLKIT</span><h2>Tools for the <span class="gradient-text">delivery lifecycle.</span></h2></div><p class="section-summary">A working skills map for the portfolio. Individual tools should be retained on your resume only where you can explain your hands-on experience.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-card-head"><span class="skill-symbol">☁</span><span class="skill-index">01</span></div><h3>Cloud &amp; Infrastructure</h3><div class="chips"><span>AWS</span><span>EC2</span><span>VPC</span><span>IAM</span><span>RDS</span><span>S3</span><span>ECR</span></div></article>
+        <article class="skill-card"><div class="skill-card-head"><span class="skill-symbol">⌘</span><span class="skill-index">02</span></div><h3>Infrastructure as Code</h3><div class="chips"><span>Terraform</span><span>Modules</span><span>State</span><span>Variables</span><span>Outputs</span></div></article>
+        <article class="skill-card"><div class="skill-card-head"><span class="skill-symbol">▣</span><span class="skill-index">03</span></div><h3>Containers &amp; Delivery</h3><div class="chips"><span>Docker</span><span>Docker Compose</span><span>GitHub Actions</span><span>Jenkins</span><span>Git</span></div></article>
+        <article class="skill-card"><div class="skill-card-head"><span class="skill-symbol">$_</span><span class="skill-index">04</span></div><h3>Systems &amp; Application</h3><div class="chips"><span>Linux</span><span>Bash</span><span>Node.js</span><span>Nginx</span><span>PostgreSQL</span><span>Prisma</span></div></article>
+      </div>
+    </section>
+
+    <section class="section-wrap content-section" id="projects">
+      <div class="section-heading"><div><span class="section-kicker">03 / SELECTED WORK</span><h2>Projects, <span class="muted-heading">not just buzzwords.</span></h2></div><p class="section-summary">Open each repository for the source. The descriptions below are intentionally conservative and should be expanded after a final README and code review.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-featured">
+          <div class="project-visual visual-cloud"><div class="cloud-node node-a">AWS</div><div class="cloud-node node-b">EC2</div><div class="cloud-node node-c">RDS</div><div class="cloud-node node-d">S3</div><div class="cloud-lines"></div><span class="visual-caption">CLOUD / INFRASTRUCTURE</span></div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">FEATURED PROJECT</span><span class="project-number">01</span></div><h3>Assal Kolhapuri Dryfruits</h3><p>A commerce application project with AWS infrastructure and deployment work. Based on project context, the stack includes Terraform-managed infrastructure, an EC2-hosted container, ECR, RDS PostgreSQL, and S3 product images.</p><div class="project-tags"><span>AWS</span><span>Terraform</span><span>Docker</span><span>ECR</span><span>RDS</span></div><a class="project-link" href="https://github.com/RanjitGaingade/assal-kolhapuri-dryfruits" target="_blank" rel="noreferrer">Inspect repository <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-pipeline"><div class="pipeline-step">CODE</div><i>→</i><div class="pipeline-step">BUILD</div><i>→</i><div class="pipeline-step">SHIP</div><span class="visual-caption">PIPELINE AUTOMATION</span></div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">CI/CD</span><span class="project-number">02</span></div><h3>Jenkins CI/CD Demo</h3><p>Jenkins pipeline defined as code checks out the repository, builds a version-tagged Docker image, runs a Node.js syntax check and image inspection, replaces the app container, then retries an HTTP deployment check. The README documents GitHub push webhooks via ngrok for this local learning setup.</p><div class="project-tags"><span>Jenkins</span><span>Docker</span><span>Node.js</span><span>GitHub Webhooks</span><span>ngrok</span></div><a class="project-link" href="https://github.com/RanjitGaingade/jenkins-cicd-demo" target="_blank" rel="noreferrer">Inspect repository <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-containers"><div class="container-box">TF</div><div class="container-box">DOCKER</div><div class="container-box">INFRA</div><span class="visual-caption">REPEATABLE ENVIRONMENTS</span></div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">INFRASTRUCTURE</span><span class="project-number">03</span></div><h3>Terraform Docker</h3><p>Uses Terraform with the Docker provider to manage the <code>nginx:latest</code> image and a container named <code>terraform-nginx</code>. Maps host port 9090 to container port 80 and documents the plan, apply, state-inspection, verification, and destroy lifecycle.</p><div class="project-tags"><span>Terraform</span><span>Docker Provider</span><span>Nginx</span><span>IaC</span></div><a class="project-link" href="https://github.com/RanjitGaingade/terraform-docker" target="_blank" rel="noreferrer">Inspect repository <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-node"><span class="node-hex">JS</span><span class="node-orbit orbit-one"></span><span class="node-orbit orbit-two"></span><span class="visual-caption">APPLICATION DELIVERY</span></div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">APPLICATION</span><span class="project-number">04</span></div><h3>Node.js Demo App</h3><p>A small Express.js app serving a greeting on port 3000, packaged with a Node 20 Alpine Docker image. GitHub Actions runs on pushes to main, installs dependencies, executes the configured npm test script, then builds and pushes a Docker Hub image tagged latest using repository secrets.</p><div class="project-tags"><span>Node.js</span><span>Express</span><span>Docker</span><span>GitHub Actions</span></div><a class="project-link" href="https://github.com/RanjitGaingade/nodejs-demo-app" target="_blank" rel="noreferrer">Inspect repository <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-git"><div class="git-branch"><i></i><i></i><i></i><b></b></div><span class="visual-caption">VERSION CONTROL</span></div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">SOURCE CONTROL</span><span class="project-number">05</span></div><h3>DevOps Git Project</h3><p>Documents a Git collaboration workflow using <code>main</code> for production-ready code, <code>dev</code> for integration, and <code>feature/*</code> branches with pull requests. Includes a system-information Bash script and a <code>.gitignore</code> covering environment files, private keys, logs, and Terraform state. The task checklist shows that branch/PR practice and Git tagging are still pending.</p><div class="project-tags"><span>Git</span><span>GitHub</span><span>Branching</span><span>Pull Requests</span><span>Bash</span></div><a class="project-link" href="https://github.com/RanjitGaingade/devops-git-project" target="_blank" rel="noreferrer">Inspect repository <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-web"><span class="browser-window"><b></b><b></b><b></b><i></i><i></i><i></i></span><span class="visual-caption">WEB FUNDAMENTALS</span></div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">WEB DEVELOPMENT</span><span class="project-number">06</span></div><h3>My First Website</h3><p>A website project that shows the web-development side of the portfolio. Check its HTML, CSS, and assets to describe the implementation accurately.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>Web</span></div><a class="project-link" href="https://github.com/RanjitGaingade/my-first-website" target="_blank" rel="noreferrer">Inspect repository <span>↗</span></a></div>
+        </article>
+      </div>
+      <div class="repo-note"><span>ⓘ</span><p><strong>Portfolio accuracy note:</strong> the project descriptions are starting summaries, not claims of production scale or measured business outcomes. Update them after verifying each repository's current branch, README, workflow files, and deployment evidence.</p></div>
+    </section>
+
+    <section class="section-wrap content-section" id="workflow">
+      <div class="section-heading"><div><span class="section-kicker">04 / DELIVERY MODEL</span><h2>From commit to <span class="gradient-text">running service.</span></h2></div><p class="section-summary">A conceptual delivery path for explaining DevOps practices in interviews. This is illustrative, not a claim that every repository implements every stage.</p></div>
+      <div class="workflow">
+        <div class="workflow-step"><span class="workflow-icon">⌁</span><span class="workflow-num">STEP 01</span><h3>Version</h3><p>Track code and infrastructure changes in Git.</p></div><div class="workflow-arrow">→</div>
+        <div class="workflow-step"><span class="workflow-icon">⚙</span><span class="workflow-num">STEP 02</span><h3>Validate</h3><p>Run checks, build artifacts, and review changes.</p></div><div class="workflow-arrow">→</div>
+        <div class="workflow-step"><span class="workflow-icon">▣</span><span class="workflow-num">STEP 03</span><h3>Package</h3><p>Build and publish versioned container images where applicable.</p></div><div class="workflow-arrow">→</div>
+        <div class="workflow-step"><span class="workflow-icon">☁</span><span class="workflow-num">STEP 04</span><h3>Deploy &amp; verify</h3><p>Release to the target environment and verify service health.</p></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="section-wrap contact-inner"><div><span class="section-kicker">05 / LET'S CONNECT</span><h2>Have a cloud challenge<br>or an opportunity?</h2><p>I'm interested in AWS Cloud and DevOps opportunities where automation, reliability, and continuous improvement matter.</p></div><div class="contact-actions"><a class="button button-primary" href="https://github.com/RanjitGaingade" target="_blank" rel="noreferrer">Connect on GitHub ↗</a><a class="button button-secondary" href="https://github.com/RanjitGaingade?tab=repositories" target="_blank" rel="noreferrer">View all repositories ↗</a><span class="contact-hint">Add your LinkedIn URL and preferred contact email before publishing.</span></div></div></section>
+  </main>
+  <footer class="site-footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">RG</span><span>RANJIT<span class="brand-muted">.DEVOPS</span></span></a><span>Designed for clarity. Built for the cloud.</span><span>© <span id="year"></span> Ranjit Gaingade</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
